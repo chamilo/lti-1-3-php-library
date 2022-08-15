@@ -40,7 +40,8 @@ class LtiAssignmentsGradesService
             LtiServiceConnector::METHOD_POST,
             $score_url,
             strval($grade),
-            'application/vnd.ims.lis.v1.score+json'
+	    'application/vnd.ims.lis.v1.score+json',
+	    'application/vnd.ims.lis.v1.score+json'
         );
     }
 
